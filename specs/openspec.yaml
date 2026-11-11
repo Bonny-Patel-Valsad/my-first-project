@@ -1,0 +1,13 @@
+yaml
+openapi: 3.0.0
+info:
+  title: My First OpenSpec Project
+  version: 1.0.0
+  description: Local project integrated with VS Code and GitHub
+paths:
+  /welcome:
+    get:
+      summary: Returns a welcome message
+      responses:
+        '200':
+          description: Success
